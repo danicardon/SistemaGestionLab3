@@ -8,6 +8,6 @@ namespace SistemaGestionLab
 {
     internal class ConexionDB
     {
-        //prueba de rama
+        //prueba de rama 2ss
     }
 }
