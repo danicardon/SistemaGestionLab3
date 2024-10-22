@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace SistemaGestionLab
 {
-    public partial class frmRegVtas : Form
+    public partial class frmRegistroCompras : Form
     {
-        public frmRegVtas()
+        public frmRegistroCompras()
         {
             InitializeComponent();
         }
-
     }
 }
