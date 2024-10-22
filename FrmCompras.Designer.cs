@@ -1,6 +1,6 @@
 ﻿namespace SistemaGestionLab
 {
-    partial class FrmCompras
+    partial class frmCompras
     {
         /// <summary>
         /// Required designer variable.
@@ -88,7 +88,7 @@
             this.MenuPagos.Size = new System.Drawing.Size(95, 34);
             this.MenuPagos.Text = "PAGOS";
             // 
-            // FrmCompras
+            // frmCompras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -96,8 +96,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
-            this.Name = "FrmCompras";
-            this.Text = "FrmCompras";
+            this.Name = "frmCompras";
+            this.Text = "Compras";
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);

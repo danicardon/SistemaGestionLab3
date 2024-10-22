@@ -213,7 +213,7 @@
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label1);
             this.Name = "frmHistorialVentas";
-            this.Text = "frmHistorialVentas";
+            this.Text = "Historial Ventas";
             ((System.ComponentModel.ISupportInitialize)(this.DgvMostrar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

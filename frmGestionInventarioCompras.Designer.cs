@@ -136,7 +136,7 @@
             this.Controls.Add(this.cboFiltrar);
             this.Controls.Add(this.label1);
             this.Name = "frmGestionInventarioCompras";
-            this.Text = "frmGestionInventarioCompras";
+            this.Text = "Gestion Inventario Compras";
             ((System.ComponentModel.ISupportInitialize)(this.gdvinventario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -117,7 +117,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuiNICIO);
             this.Name = "frmInicio";
-            this.Text = "frmInicio";
+            this.Text = "Inicio";
             this.menuiNICIO.ResumeLayout(false);
             this.menuiNICIO.PerformLayout();
             this.ResumeLayout(false);

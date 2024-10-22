@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SistemaGestionLab
 {
-    public partial class frmCompras : Form
+    public partial class frmControlPagos : Form
     {
-        public frmCompras()
+        public frmControlPagos()
         {
             InitializeComponent();
         }

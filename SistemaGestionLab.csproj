@@ -106,11 +106,17 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCompras.cs">
+    <Compile Include="frmCompras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCompras.Designer.cs">
-      <DependentUpon>FrmCompras.cs</DependentUpon>
+    <Compile Include="frmCompras.Designer.cs">
+      <DependentUpon>frmCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmControlPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmControlPagos.Designer.cs">
+      <DependentUpon>frmControlPagos.cs</DependentUpon>
     </Compile>
     <Compile Include="frmEstadisticas.cs">
       <SubType>Form</SubType>
@@ -153,8 +159,11 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmCompras.resx">
-      <DependentUpon>FrmCompras.cs</DependentUpon>
+    <EmbeddedResource Include="frmCompras.resx">
+      <DependentUpon>frmCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmControlPagos.resx">
+      <DependentUpon>frmControlPagos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEstadisticas.resx">
       <DependentUpon>frmEstadisticas.cs</DependentUpon>
