@@ -17,11 +17,13 @@ namespace Need4Sprint.Clases
         private MySqlConnection conexion;
         //readonly para que los valores se apliquen una vez y no se puedan modificar mas adelante
         private readonly string cadenaConexion;
+        private  string user;
+        private  string password;
 
         //Constructor donde se define la cadena de conexion y se le asigna a conexion
         public ConexionBD(string usuario, string contraseña)
         {
-            cadenaConexion = $"server=localhost;user={usuario};password={contraseña};database=sistema_gestion_empresarial;";
+            cadenaConexion = $"server=localhost;user={"root"};password={"root"};database=sistema_gestion_empresarial;";
             conexion = new MySqlConnection(cadenaConexion) ;
         }
 
@@ -66,7 +68,17 @@ namespace Need4Sprint.Clases
                         if (AbrirConexion())
                         {
                             int resultado = Convert.ToInt32(cmd.ExecuteScalar());
-                            return resultado > 0 && resultado < 2;
+                            if(resultado > 0 && resultado < 2)
+                            {
+                                user = usuario;
+                                password = contrasena;
+
+                                return true;
+                            }
+                            else
+                            {
+                                return false;
+                            }
                         }
                     }
                 }
@@ -79,20 +91,19 @@ namespace Need4Sprint.Clases
         }
 
         //fixme
-        //Falta validar el rol_id y la empresa
-        public bool AgregarUsuario(int empresa, string nombre, string apellido, string email, string contrasena, int rolID, DateTime fecha)
+       
+        public bool AgregarUsuario(string nombre, string apellido, string email, string contrasena, int rolID, DateTime fecha)
         {
             using (conexion)
             {
                 try
                 {
-                    string query = @"INSERT INTO usuarios (empresa, nombre, apellido, email, contraseña, rol_id, fecha_registro) 
-                        VALUES (@empresa, @nombre, @apellido, @email, @contrasena, @rolID, @fecha);"
+                    string query = @"INSERT INTO usuarios (nombre, apellido, email, contraseña, rol_id, fecha_registro) 
+                        VALUES ( @nombre, @apellido, @email, @contrasena, @rolID, @fecha);"
                     ;
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conexion))
                     {
-                        cmd.Parameters.AddWithValue("@empresa", empresa);
                         cmd.Parameters.AddWithValue("@nombre", nombre);
                         cmd.Parameters.AddWithValue("@apellido", apellido);
                         cmd.Parameters.AddWithValue("@email", email);

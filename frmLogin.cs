@@ -82,8 +82,8 @@ namespace SistemaGestionLab
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            string user = txtUsuario.Text;
-            string pass = txtContra.Text;
+            string user = txtUsuario.Text.Trim();
+            string pass = txtContra.Text.Trim();
 
             if (!string.IsNullOrEmpty(user) || !string.IsNullOrEmpty(pass))
             {
