@@ -210,6 +210,7 @@
             this.Controls.Add(this.lblBienvenida);
             this.Name = "frmRegistrarse";
             this.Text = "Registrarse";
+            this.Load += new System.EventHandler(this.frmRegistrarse_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

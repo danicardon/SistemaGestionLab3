@@ -105,6 +105,18 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmModGesPers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModGesPers.Designer.cs">
+      <DependentUpon>frmModGesPers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModRrHh\LegEmpl\frmModLegEmpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModRrHh\LegEmpl\frmModLegEmpl.Designer.cs">
+      <DependentUpon>frmModLegEmpl.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRecuContra.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,8 +185,38 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModRrHh\GestPers\frmAgregarGestPersonal.resx">
+      <DependentUpon>frmAgregarGestPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModRrHh\GestPers\frmEliminarPersonal.resx">
+      <DependentUpon>frmEliminarPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModRrHh\GestPers\frmModGesPersonal.resx">
+      <DependentUpon>frmModGesPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModRrHh\LegEmpl\frmAgregarLegEmpl.resx">
+      <DependentUpon>frmAgregarLegEmpl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModRrHh\LegEmpl\frmEliminarLegEmpl.resx">
+      <DependentUpon>frmEliminarLegEmpl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModRrHh\GestPers\frmGestPersonal.resx">
+      <DependentUpon>frmGestPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModRrHh\LegEmpl\frmLegEmpleado.resx">
+      <DependentUpon>frmLegEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModGesPers.resx">
+      <DependentUpon>frmModGesPers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModRrHh\LegEmpl\frmModLegEmpl.resx">
+      <DependentUpon>frmModLegEmpl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRecuContra.resx">
       <DependentUpon>frmRecuContra.cs</DependentUpon>
