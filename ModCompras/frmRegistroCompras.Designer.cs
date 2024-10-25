@@ -100,7 +100,7 @@
             this.txtProductos.BackColor = System.Drawing.Color.Gray;
             this.txtProductos.Location = new System.Drawing.Point(152, 33);
             this.txtProductos.Name = "txtProductos";
-            this.txtProductos.Size = new System.Drawing.Size(251, 34);
+            this.txtProductos.Size = new System.Drawing.Size(251, 31);
             this.txtProductos.TabIndex = 9;
             // 
             // label3
@@ -108,7 +108,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(13, 288);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 29);
+            this.label3.Size = new System.Drawing.Size(60, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Total";
             // 
@@ -117,7 +117,7 @@
             this.txtTotal.BackColor = System.Drawing.Color.Gray;
             this.txtTotal.Location = new System.Drawing.Point(152, 285);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(251, 34);
+            this.txtTotal.Size = new System.Drawing.Size(251, 31);
             this.txtTotal.TabIndex = 10;
             // 
             // label1
@@ -125,7 +125,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(11, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 29);
+            this.label1.Size = new System.Drawing.Size(109, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Productos";
             // 
@@ -134,7 +134,7 @@
             this.txtProveed.BackColor = System.Drawing.Color.Gray;
             this.txtProveed.Location = new System.Drawing.Point(152, 222);
             this.txtProveed.Name = "txtProveed";
-            this.txtProveed.Size = new System.Drawing.Size(251, 34);
+            this.txtProveed.Size = new System.Drawing.Size(251, 31);
             this.txtProveed.TabIndex = 6;
             // 
             // txtPrecio
@@ -142,7 +142,7 @@
             this.txtPrecio.BackColor = System.Drawing.Color.Gray;
             this.txtPrecio.Location = new System.Drawing.Point(152, 159);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(251, 34);
+            this.txtPrecio.Size = new System.Drawing.Size(251, 31);
             this.txtPrecio.TabIndex = 7;
             // 
             // label5
@@ -150,7 +150,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(11, 225);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 29);
+            this.label5.Size = new System.Drawing.Size(92, 25);
             this.label5.TabIndex = 5;
             this.label5.Text = "Proveed";
             // 
@@ -159,7 +159,7 @@
             this.txtCantidad.BackColor = System.Drawing.Color.Gray;
             this.txtCantidad.Location = new System.Drawing.Point(152, 96);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(251, 34);
+            this.txtCantidad.Size = new System.Drawing.Size(251, 31);
             this.txtCantidad.TabIndex = 8;
             // 
             // label2
@@ -167,16 +167,17 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(11, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 29);
+            this.label2.Size = new System.Drawing.Size(98, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Cantidad";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(13, 162);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 29);
+            this.label4.Size = new System.Drawing.Size(73, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "Precio";
             // 
@@ -235,7 +236,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(13, 49);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(187, 29);
+            this.label6.Size = new System.Drawing.Size(169, 25);
             this.label6.TabIndex = 20;
             this.label6.Text = "Generar Factura";
             // 

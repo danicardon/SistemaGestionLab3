@@ -135,16 +135,16 @@
     <Compile Include="frmAgenda.Designer.cs">
       <DependentUpon>frmAgenda.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCompras.cs">
+    <Compile Include="ModCompras\frmCompras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCompras.Designer.cs">
+    <Compile Include="ModCompras\frmCompras.Designer.cs">
       <DependentUpon>frmCompras.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmControlPagos.cs">
+    <Compile Include="ModCompras\frmControlPagos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmControlPagos.Designer.cs">
+    <Compile Include="ModCompras\frmControlPagos.Designer.cs">
       <DependentUpon>frmControlPagos.cs</DependentUpon>
     </Compile>
     <Compile Include="frmEstadisticas.cs">
@@ -153,10 +153,10 @@
     <Compile Include="frmEstadisticas.Designer.cs">
       <DependentUpon>frmEstadisticas.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmGestionInventarioCompras.cs">
+    <Compile Include="ModCompras\frmGestionInventarioCompras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGestionInventarioCompras.Designer.cs">
+    <Compile Include="ModCompras\frmGestionInventarioCompras.Designer.cs">
       <DependentUpon>frmGestionInventarioCompras.cs</DependentUpon>
     </Compile>
     <Compile Include="frmHistorialVentas.cs">
@@ -165,16 +165,10 @@
     <Compile Include="frmHistorialVentas.Designer.cs">
       <DependentUpon>frmHistorialVentas.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmInicio.cs">
+    <Compile Include="ModCompras\frmRegistroCompras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInicio.Designer.cs">
-      <DependentUpon>frmInicio.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRegistroCompras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRegistroCompras.Designer.cs">
+    <Compile Include="ModCompras\frmRegistroCompras.Designer.cs">
       <DependentUpon>frmRegistroCompras.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRegVtas.cs">
@@ -227,25 +221,22 @@
     <EmbeddedResource Include="frmAgenda.resx">
       <DependentUpon>frmAgenda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCompras.resx">
+    <EmbeddedResource Include="ModCompras\frmCompras.resx">
       <DependentUpon>frmCompras.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmControlPagos.resx">
+    <EmbeddedResource Include="ModCompras\frmControlPagos.resx">
       <DependentUpon>frmControlPagos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEstadisticas.resx">
       <DependentUpon>frmEstadisticas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmGestionInventarioCompras.resx">
+    <EmbeddedResource Include="ModCompras\frmGestionInventarioCompras.resx">
       <DependentUpon>frmGestionInventarioCompras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHistorialVentas.resx">
       <DependentUpon>frmHistorialVentas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmInicio.resx">
-      <DependentUpon>frmInicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRegistroCompras.resx">
+    <EmbeddedResource Include="ModCompras\frmRegistroCompras.resx">
       <DependentUpon>frmRegistroCompras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegVtas.resx">

@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmControlPagos));
             this.cboPAGO = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnFiltrar = new System.Windows.Forms.Button();
             this.colprod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.proveedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnFiltrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +48,7 @@
             "Realizados"});
             this.cboPAGO.Location = new System.Drawing.Point(1, 25);
             this.cboPAGO.Name = "cboPAGO";
-            this.cboPAGO.Size = new System.Drawing.Size(181, 30);
+            this.cboPAGO.Size = new System.Drawing.Size(181, 28);
             this.cboPAGO.TabIndex = 0;
             this.cboPAGO.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -65,16 +65,6 @@
             this.dataGridView1.RowHeadersWidth = 45;
             this.dataGridView1.Size = new System.Drawing.Size(491, 357);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // btnFiltrar
-            // 
-            this.btnFiltrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFiltrar.Location = new System.Drawing.Point(22, 331);
-            this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(112, 52);
-            this.btnFiltrar.TabIndex = 2;
-            this.btnFiltrar.Text = "Filtrar";
-            this.btnFiltrar.UseVisualStyleBackColor = true;
             // 
             // colprod
             // 
@@ -103,6 +93,16 @@
             this.proveedor.MinimumWidth = 6;
             this.proveedor.Name = "proveedor";
             this.proveedor.Width = 110;
+            // 
+            // btnFiltrar
+            // 
+            this.btnFiltrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.22642F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFiltrar.Location = new System.Drawing.Point(22, 331);
+            this.btnFiltrar.Name = "btnFiltrar";
+            this.btnFiltrar.Size = new System.Drawing.Size(112, 52);
+            this.btnFiltrar.TabIndex = 2;
+            this.btnFiltrar.Text = "Filtrarr";
+            this.btnFiltrar.UseVisualStyleBackColor = true;
             // 
             // frmControlPagos
             // 
