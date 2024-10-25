@@ -100,11 +100,53 @@
   <ItemGroup>
     <Compile Include="Clases\ConexionBD.cs" />
     <Compile Include="ConexionDB.cs" />
+    <Compile Include="frmAgregarGestPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarGestPersonal.Designer.cs">
+      <DependentUpon>frmAgregarGestPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarLegEmpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarLegEmpl.Designer.cs">
+      <DependentUpon>frmAgregarLegEmpl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEliminarLegEmpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarLegEmpl.Designer.cs">
+      <DependentUpon>frmEliminarLegEmpl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestPersonal.Designer.cs">
+      <DependentUpon>frmGestPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLegEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLegEmpleado.Designer.cs">
+      <DependentUpon>frmLegEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModGesPers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModGesPers.Designer.cs">
+      <DependentUpon>frmModGesPers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModLegEmpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModLegEmpl.Designer.cs">
+      <DependentUpon>frmModLegEmpl.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRecuContra.cs">
       <SubType>Form</SubType>
@@ -120,8 +162,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAgregarGestPersonal.resx">
+      <DependentUpon>frmAgregarGestPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarLegEmpl.resx">
+      <DependentUpon>frmAgregarLegEmpl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarLegEmpl.resx">
+      <DependentUpon>frmEliminarLegEmpl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestPersonal.resx">
+      <DependentUpon>frmGestPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLegEmpleado.resx">
+      <DependentUpon>frmLegEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModGesPers.resx">
+      <DependentUpon>frmModGesPers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModLegEmpl.resx">
+      <DependentUpon>frmModLegEmpl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRecuContra.resx">
       <DependentUpon>frmRecuContra.cs</DependentUpon>

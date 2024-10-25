@@ -130,5 +130,10 @@ namespace SistemaGestionLab
                 g.DrawImage(firmaBitmap, Point.Empty);
             }
         }
+
+        private void frmRegistrarse_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
