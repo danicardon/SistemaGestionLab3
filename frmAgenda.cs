@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace SistemaGestionLab
 {
-    public partial class frmControlPagos : Form
+    public partial class frmAgenda : Form
     {
-        public frmControlPagos()
+        public frmAgenda()
         {
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
         {
 
         }

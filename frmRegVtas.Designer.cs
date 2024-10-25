@@ -75,7 +75,7 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(667, 508);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 20);
+            this.label6.Size = new System.Drawing.Size(75, 22);
             this.label6.TabIndex = 24;
             this.label6.Text = "TOTAL:";
             // 
@@ -105,9 +105,9 @@
             // 
             this.txtTotal.BackColor = System.Drawing.Color.Gray;
             this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.73585F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotal.Location = new System.Drawing.Point(736, 495);
+            this.txtTotal.Location = new System.Drawing.Point(748, 495);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(291, 40);
+            this.txtTotal.Size = new System.Drawing.Size(291, 44);
             this.txtTotal.TabIndex = 21;
             // 
             // btnFacturar
@@ -146,7 +146,7 @@
             this.textBox4.BackColor = System.Drawing.Color.Gray;
             this.textBox4.Location = new System.Drawing.Point(113, 51);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(211, 31);
+            this.textBox4.Size = new System.Drawing.Size(211, 34);
             this.textBox4.TabIndex = 9;
             // 
             // label3
@@ -154,7 +154,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(5, 408);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 25);
+            this.label3.Size = new System.Drawing.Size(68, 29);
             this.label3.TabIndex = 3;
             this.label3.Text = "Total";
             // 
@@ -163,7 +163,7 @@
             this.textBox5.BackColor = System.Drawing.Color.Gray;
             this.textBox5.Location = new System.Drawing.Point(113, 408);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(211, 31);
+            this.textBox5.Size = new System.Drawing.Size(211, 34);
             this.textBox5.TabIndex = 10;
             // 
             // label1
@@ -171,7 +171,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(5, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 25);
+            this.label1.Size = new System.Drawing.Size(122, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Productos";
             // 
@@ -180,7 +180,7 @@
             this.textBox1.BackColor = System.Drawing.Color.Gray;
             this.textBox1.Location = new System.Drawing.Point(113, 310);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(211, 31);
+            this.textBox1.Size = new System.Drawing.Size(211, 34);
             this.textBox1.TabIndex = 6;
             // 
             // textBox2
@@ -188,7 +188,7 @@
             this.textBox2.BackColor = System.Drawing.Color.Gray;
             this.textBox2.Location = new System.Drawing.Point(113, 212);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(211, 31);
+            this.textBox2.Size = new System.Drawing.Size(211, 34);
             this.textBox2.TabIndex = 7;
             // 
             // label5
@@ -196,7 +196,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(5, 310);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 25);
+            this.label5.Size = new System.Drawing.Size(80, 29);
             this.label5.TabIndex = 5;
             this.label5.Text = "Fecha";
             // 
@@ -205,7 +205,7 @@
             this.textBox3.BackColor = System.Drawing.Color.Gray;
             this.textBox3.Location = new System.Drawing.Point(113, 130);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(211, 31);
+            this.textBox3.Size = new System.Drawing.Size(211, 34);
             this.textBox3.TabIndex = 8;
             // 
             // label2
@@ -213,7 +213,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(5, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 25);
+            this.label2.Size = new System.Drawing.Size(109, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Cantidad";
             // 
@@ -222,7 +222,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(7, 212);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 25);
+            this.label4.Size = new System.Drawing.Size(83, 29);
             this.label4.TabIndex = 4;
             this.label4.Text = "Precio";
             // 
@@ -247,7 +247,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DgvMostrar.DefaultCellStyle = dataGridViewCellStyle1;
-            this.DgvMostrar.Location = new System.Drawing.Point(346, 12);
+            this.DgvMostrar.Location = new System.Drawing.Point(359, 12);
             this.DgvMostrar.Name = "DgvMostrar";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
@@ -301,7 +301,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1039, 551);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(1064, 565);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnVolver);

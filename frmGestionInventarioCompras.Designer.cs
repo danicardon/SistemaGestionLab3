@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestionInventarioCompras));
             this.btnFiltrar = new System.Windows.Forms.Button();
             this.gdvinventario = new System.Windows.Forms.DataGridView();
             this.IDproducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,7 +46,7 @@
             // 
             this.btnFiltrar.BackColor = System.Drawing.Color.Gray;
             this.btnFiltrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFiltrar.Location = new System.Drawing.Point(8, 269);
+            this.btnFiltrar.Location = new System.Drawing.Point(8, 265);
             this.btnFiltrar.Name = "btnFiltrar";
             this.btnFiltrar.Size = new System.Drawing.Size(137, 32);
             this.btnFiltrar.TabIndex = 9;
@@ -112,7 +113,7 @@
             this.cboFiltrar.FormattingEnabled = true;
             this.cboFiltrar.Location = new System.Drawing.Point(4, 32);
             this.cboFiltrar.Name = "cboFiltrar";
-            this.cboFiltrar.Size = new System.Drawing.Size(141, 25);
+            this.cboFiltrar.Size = new System.Drawing.Size(141, 28);
             this.cboFiltrar.TabIndex = 7;
             // 
             // label1
@@ -121,7 +122,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.86792F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(4, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 18);
+            this.label1.Size = new System.Drawing.Size(49, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Filtrar";
             // 
@@ -135,6 +136,7 @@
             this.Controls.Add(this.gdvinventario);
             this.Controls.Add(this.cboFiltrar);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmGestionInventarioCompras";
             this.Text = "Gestion Inventario Compras";
             ((System.ComponentModel.ISupportInitialize)(this.gdvinventario)).EndInit();

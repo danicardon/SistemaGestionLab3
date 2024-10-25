@@ -32,8 +32,8 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.MenuRegistro = new System.Windows.Forms.ToolStripMenuItem();
             this.menuInventario = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuHistorial = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuPagos = new System.Windows.Forms.ToolStripMenuItem();
+            this.iNICIOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +42,7 @@
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(18, 18);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 38);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 40);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 6;
@@ -56,37 +56,37 @@
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuRegistro,
             this.menuInventario,
-            this.menuHistorial,
-            this.MenuPagos});
+            this.MenuPagos,
+            this.iNICIOToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(800, 38);
+            this.menuStrip2.Size = new System.Drawing.Size(800, 40);
             this.menuStrip2.TabIndex = 7;
             this.menuStrip2.Text = "menuStrip2";
             // 
             // MenuRegistro
             // 
             this.MenuRegistro.Name = "MenuRegistro";
-            this.MenuRegistro.Size = new System.Drawing.Size(132, 34);
+            this.MenuRegistro.Size = new System.Drawing.Size(148, 36);
             this.MenuRegistro.Text = "REGISTRO ";
             // 
             // menuInventario
             // 
             this.menuInventario.Name = "menuInventario";
-            this.menuInventario.Size = new System.Drawing.Size(250, 34);
+            this.menuInventario.Size = new System.Drawing.Size(281, 36);
             this.menuInventario.Text = "GESTION INVENTARIO";
-            // 
-            // menuHistorial
-            // 
-            this.menuHistorial.Name = "menuHistorial";
-            this.menuHistorial.Size = new System.Drawing.Size(134, 34);
-            this.menuHistorial.Text = "HISTORIAL";
             // 
             // MenuPagos
             // 
             this.MenuPagos.Name = "MenuPagos";
-            this.MenuPagos.Size = new System.Drawing.Size(95, 34);
+            this.MenuPagos.Size = new System.Drawing.Size(105, 36);
             this.MenuPagos.Text = "PAGOS";
+            // 
+            // iNICIOToolStripMenuItem
+            // 
+            this.iNICIOToolStripMenuItem.Name = "iNICIOToolStripMenuItem";
+            this.iNICIOToolStripMenuItem.Size = new System.Drawing.Size(102, 36);
+            this.iNICIOToolStripMenuItem.Text = "INICIO";
             // 
             // frmCompras
             // 
@@ -111,7 +111,7 @@
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem MenuRegistro;
         private System.Windows.Forms.ToolStripMenuItem menuInventario;
-        private System.Windows.Forms.ToolStripMenuItem menuHistorial;
         private System.Windows.Forms.ToolStripMenuItem MenuPagos;
+        private System.Windows.Forms.ToolStripMenuItem iNICIOToolStripMenuItem;
     }
 }
