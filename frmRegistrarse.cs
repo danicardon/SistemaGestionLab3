@@ -22,8 +22,8 @@ namespace SistemaGestionLab
 
             // Crear el panel donde el usuario podrá dibujar la firma
             panelFirma = new Panel();
-            panelFirma.Size = new Size(220, 131);
-            panelFirma.Location = new Point(154, 180);
+            panelFirma.Size = new Size(290, 120);
+            panelFirma.Location = new Point(215, 225);
             panelFirma.BackColor = Color.White;
             panelFirma.BorderStyle = BorderStyle.FixedSingle;
 
@@ -109,19 +109,6 @@ namespace SistemaGestionLab
             dibujando = false;
         }
 
-        private void cmdGuardar_Click(object sender, EventArgs e)
-        {
-            SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Title = "Guardar Firma";
-            saveFileDialog.ShowDialog();
-
-            if (saveFileDialog.FileName != "")
-            {
-                // Guardar el bitmap en el archivo seleccionado
-                firmaBitmap.Save(saveFileDialog.FileName, System.Drawing.Imaging.ImageFormat.Png);
-                MessageBox.Show("Firma guardada exitosamente.");
-            }
-        }
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);

@@ -47,9 +47,8 @@ namespace SistemaGestionLab
                     }
                 }
                 if (control is Button) control.BackColor = colorContenedores;
-
-                
             }
+            lblAviso.Enabled = false;
         }
 
 

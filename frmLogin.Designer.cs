@@ -31,8 +31,7 @@
             this.lblRegistrarse = new System.Windows.Forms.Label();
             this.lblInicioSesion = new System.Windows.Forms.Label();
             this.lblContra = new System.Windows.Forms.Label();
-            this.lblPermiso = new System.Windows.Forms.Label();
-            this.txtPermiso = new System.Windows.Forms.TextBox();
+            this.lblAviso = new System.Windows.Forms.Label();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.txtContra = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -79,33 +78,24 @@
             this.lblContra.TabIndex = 2;
             this.lblContra.Text = "Contraseña";
             // 
-            // lblPermiso
+            // lblAviso
             // 
-            this.lblPermiso.AutoSize = true;
-            this.lblPermiso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPermiso.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblPermiso.Location = new System.Drawing.Point(19, 133);
-            this.lblPermiso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblPermiso.Name = "lblPermiso";
-            this.lblPermiso.Size = new System.Drawing.Size(64, 18);
-            this.lblPermiso.TabIndex = 3;
-            this.lblPermiso.Text = "Permiso";
-            // 
-            // txtPermiso
-            // 
-            this.txtPermiso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPermiso.Location = new System.Drawing.Point(117, 130);
-            this.txtPermiso.Margin = new System.Windows.Forms.Padding(2);
-            this.txtPermiso.Name = "txtPermiso";
-            this.txtPermiso.Size = new System.Drawing.Size(102, 24);
-            this.txtPermiso.TabIndex = 6;
+            this.lblAviso.AutoSize = true;
+            this.lblAviso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAviso.ForeColor = System.Drawing.Color.Transparent;
+            this.lblAviso.Location = new System.Drawing.Point(19, 130);
+            this.lblAviso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAviso.Name = "lblAviso";
+            this.lblAviso.Size = new System.Drawing.Size(44, 18);
+            this.lblAviso.TabIndex = 3;
+            this.lblAviso.Text = "Aviso";
             // 
             // btnIngresar
             // 
             this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.Color.Black;
-            this.btnIngresar.Location = new System.Drawing.Point(22, 181);
+            this.btnIngresar.Location = new System.Drawing.Point(22, 173);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(213, 34);
             this.btnIngresar.TabIndex = 0;
@@ -150,8 +140,7 @@
             this.groupBox1.Controls.Add(this.txtUsuario);
             this.groupBox1.Controls.Add(this.txtContra);
             this.groupBox1.Controls.Add(this.btnIngresar);
-            this.groupBox1.Controls.Add(this.txtPermiso);
-            this.groupBox1.Controls.Add(this.lblPermiso);
+            this.groupBox1.Controls.Add(this.lblAviso);
             this.groupBox1.Controls.Add(this.lblContra);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox1.Location = new System.Drawing.Point(144, 121);
@@ -165,7 +154,7 @@
             // 
             this.lblRecContraseña.AutoSize = true;
             this.lblRecContraseña.ForeColor = System.Drawing.Color.White;
-            this.lblRecContraseña.Location = new System.Drawing.Point(57, 230);
+            this.lblRecContraseña.Location = new System.Drawing.Point(56, 223);
             this.lblRecContraseña.Name = "lblRecContraseña";
             this.lblRecContraseña.Size = new System.Drawing.Size(136, 13);
             this.lblRecContraseña.TabIndex = 7;
@@ -207,8 +196,7 @@
         private System.Windows.Forms.Label lblRegistrarse;
         private System.Windows.Forms.Label lblInicioSesion;
         private System.Windows.Forms.Label lblContra;
-        private System.Windows.Forms.Label lblPermiso;
-        private System.Windows.Forms.TextBox txtPermiso;
+        private System.Windows.Forms.Label lblAviso;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.TextBox txtContra;
         private System.Windows.Forms.TextBox txtUsuario;
