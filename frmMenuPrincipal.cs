@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace SistemaGestionLab
 {
-    public partial class frmEliminarLegEmpl : Form
+    public partial class frmMenuPrincipal : Form
     {
-        public frmEliminarLegEmpl()
+        public frmMenuPrincipal()
         {
-            InitializeComponent();
-            diseño()
-        }
-
-        private void frmEliminarLegEmpl_Load(object sender, EventArgs e)
-        {
-
+            InitializeComponent(); diseño();
         }
         public void diseño()
         {
@@ -54,18 +48,14 @@ namespace SistemaGestionLab
 
             }
         }
-
-        private void btnTodo_Click(object sender, EventArgs e)
+        private void frmMenuPrincipal_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("¿Seguro que quieres eliminar a [nombre]?",
-                                            "Advertencia",
-                                            MessageBoxButtons.OKCancel,
-                                            MessageBoxIcon.Warning);
+
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
     }
 }

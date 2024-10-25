@@ -89,6 +89,7 @@
             this.grpDatos.Controls.Add(this.lblNleg);
             this.grpDatos.Controls.Add(this.lblApellido);
             this.grpDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.08F);
+            this.grpDatos.ForeColor = System.Drawing.Color.Yellow;
             this.grpDatos.Location = new System.Drawing.Point(32, 23);
             this.grpDatos.Name = "grpDatos";
             this.grpDatos.Size = new System.Drawing.Size(356, 340);
@@ -119,6 +120,9 @@
             // 
             // dgvLegEmpl
             // 
+            this.dgvLegEmpl.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvLegEmpl.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(26)))), ((int)(((byte)(32)))));
+            this.dgvLegEmpl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvLegEmpl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLegEmpl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -128,7 +132,8 @@
             this.Column5});
             this.dgvLegEmpl.Location = new System.Drawing.Point(434, 23);
             this.dgvLegEmpl.Name = "dgvLegEmpl";
-            this.dgvLegEmpl.Size = new System.Drawing.Size(589, 340);
+            this.dgvLegEmpl.RowHeadersWidth = 85;
+            this.dgvLegEmpl.Size = new System.Drawing.Size(598, 340);
             this.dgvLegEmpl.TabIndex = 4;
             // 
             // Column1
@@ -158,6 +163,7 @@
             // 
             // btnModificar
             // 
+            this.btnModificar.ForeColor = System.Drawing.Color.Black;
             this.btnModificar.Location = new System.Drawing.Point(171, 44);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(142, 73);
@@ -168,6 +174,7 @@
             // 
             // Buscar
             // 
+            this.Buscar.ForeColor = System.Drawing.Color.Black;
             this.Buscar.Location = new System.Drawing.Point(19, 44);
             this.Buscar.Name = "Buscar";
             this.Buscar.Size = new System.Drawing.Size(142, 73);
@@ -182,6 +189,7 @@
             this.grpAcciones.Controls.Add(this.btnModificar);
             this.grpAcciones.Controls.Add(this.Buscar);
             this.grpAcciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.08F);
+            this.grpAcciones.ForeColor = System.Drawing.Color.Yellow;
             this.grpAcciones.Location = new System.Drawing.Point(392, 407);
             this.grpAcciones.Name = "grpAcciones";
             this.grpAcciones.Size = new System.Drawing.Size(631, 138);
@@ -191,6 +199,7 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.ForeColor = System.Drawing.Color.Black;
             this.btnEliminar.Location = new System.Drawing.Point(475, 44);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(142, 73);
@@ -201,6 +210,7 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.ForeColor = System.Drawing.Color.Black;
             this.btnAgregar.Location = new System.Drawing.Point(323, 44);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(142, 73);
@@ -211,6 +221,7 @@
             // 
             // btnVolver
             // 
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.08F);
             this.btnVolver.Location = new System.Drawing.Point(184, 451);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(142, 73);
@@ -221,6 +232,7 @@
             // 
             // btnTodo
             // 
+            this.btnTodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.08F);
             this.btnTodo.Location = new System.Drawing.Point(32, 451);
             this.btnTodo.Name = "btnTodo";
             this.btnTodo.Size = new System.Drawing.Size(142, 73);
@@ -239,7 +251,7 @@
             this.Controls.Add(this.dgvLegEmpl);
             this.Controls.Add(this.grpDatos);
             this.Name = "frmLegEmpleado";
-            this.Text = "frmLegEmpleado";
+            this.Text = "Legajo Empleado";
             this.Load += new System.EventHandler(this.frmLegEmpleado_Load);
             this.grpDatos.ResumeLayout(false);
             this.grpDatos.PerformLayout();

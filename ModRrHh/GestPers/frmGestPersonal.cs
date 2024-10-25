@@ -59,5 +59,11 @@ namespace SistemaGestionLab
         {
             this.Close();
         }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            frmModGesPers frmModGesPers = new frmModGesPers();  
+            frmModGesPers.ShowDialog(); 
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace SistemaGestionLab
 {
-    partial class frmModLegEmpl
+    partial class frmEliminarLegEmpl
     {
         /// <summary>
         /// Required designer variable.
@@ -61,16 +61,19 @@
             this.grpDatos.Controls.Add(this.lblNleg);
             this.grpDatos.Controls.Add(this.lblApellido);
             this.grpDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.08F);
-            this.grpDatos.Location = new System.Drawing.Point(39, 22);
+            this.grpDatos.ForeColor = System.Drawing.Color.Yellow;
+            this.grpDatos.Location = new System.Drawing.Point(65, 29);
             this.grpDatos.Name = "grpDatos";
             this.grpDatos.Size = new System.Drawing.Size(388, 444);
-            this.grpDatos.TabIndex = 4;
+            this.grpDatos.TabIndex = 5;
             this.grpDatos.TabStop = false;
             this.grpDatos.Text = "Datos";
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(184, 340);
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.Black;
+            this.btnVolver.Location = new System.Drawing.Point(199, 340);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(142, 73);
             this.btnVolver.TabIndex = 11;
@@ -80,11 +83,13 @@
             // 
             // btnTodo
             // 
-            this.btnTodo.Location = new System.Drawing.Point(32, 340);
+            this.btnTodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTodo.ForeColor = System.Drawing.Color.Black;
+            this.btnTodo.Location = new System.Drawing.Point(47, 340);
             this.btnTodo.Name = "btnTodo";
             this.btnTodo.Size = new System.Drawing.Size(142, 73);
             this.btnTodo.TabIndex = 12;
-            this.btnTodo.Text = "Modificar";
+            this.btnTodo.Text = "Eliminar";
             this.btnTodo.UseVisualStyleBackColor = true;
             this.btnTodo.Click += new System.EventHandler(this.btnTodo_Click);
             // 
@@ -176,15 +181,15 @@
             this.lblApellido.TabIndex = 1;
             this.lblApellido.Text = "Apellido : ";
             // 
-            // frmModLegEmpl
+            // frmEliminarLegEmpl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(472, 511);
+            this.ClientSize = new System.Drawing.Size(505, 507);
             this.Controls.Add(this.grpDatos);
-            this.Name = "frmModLegEmpl";
-            this.Text = "frmModLegEmpl";
-            this.Load += new System.EventHandler(this.frmModLegEmpl_Load);
+            this.Name = "frmEliminarLegEmpl";
+            this.Text = "Eliminar Legajo Empleado";
+            this.Load += new System.EventHandler(this.frmEliminarLegEmpl_Load);
             this.grpDatos.ResumeLayout(false);
             this.grpDatos.PerformLayout();
             this.ResumeLayout(false);
@@ -194,6 +199,8 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grpDatos;
+        private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button btnTodo;
         private System.Windows.Forms.Label lblUbic;
         private System.Windows.Forms.TextBox txtTel;
         private System.Windows.Forms.Label lblTel;
@@ -205,7 +212,5 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblNleg;
         private System.Windows.Forms.Label lblApellido;
-        private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.Button btnTodo;
     }
 }

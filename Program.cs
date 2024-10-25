@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaGestionLab.ModRrHh.GestPers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace SistemaGestionLab
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new frmMenuPrincipal());  //ejecutar frm 
         }
     }
 }

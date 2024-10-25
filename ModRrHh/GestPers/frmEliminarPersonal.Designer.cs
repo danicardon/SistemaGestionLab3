@@ -1,6 +1,6 @@
-﻿namespace SistemaGestionLab
+﻿namespace SistemaGestionLab.ModRrHh.GestPers
 {
-    partial class frmAgregarGestPersonal
+    partial class frmEliminarPersonal
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.grpDatos = new System.Windows.Forms.GroupBox();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.btnTodo = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -47,7 +47,7 @@
             // grpDatos
             // 
             this.grpDatos.Controls.Add(this.btnVolver);
-            this.grpDatos.Controls.Add(this.btnTodo);
+            this.grpDatos.Controls.Add(this.btnEliminar);
             this.grpDatos.Controls.Add(this.textBox5);
             this.grpDatos.Controls.Add(this.label2);
             this.grpDatos.Controls.Add(this.textBox4);
@@ -59,30 +59,37 @@
             this.grpDatos.Controls.Add(this.lblNleg);
             this.grpDatos.Controls.Add(this.lblApellido);
             this.grpDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.08F);
-            this.grpDatos.Location = new System.Drawing.Point(57, 40);
+            this.grpDatos.ForeColor = System.Drawing.Color.Yellow;
+            this.grpDatos.Location = new System.Drawing.Point(32, 24);
             this.grpDatos.Name = "grpDatos";
             this.grpDatos.Size = new System.Drawing.Size(356, 498);
-            this.grpDatos.TabIndex = 6;
+            this.grpDatos.TabIndex = 7;
             this.grpDatos.TabStop = false;
             this.grpDatos.Text = "Datos";
             // 
             // btnVolver
             // 
+            this.btnVolver.BackColor = System.Drawing.Color.Yellow;
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.Black;
             this.btnVolver.Location = new System.Drawing.Point(184, 384);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(142, 73);
             this.btnVolver.TabIndex = 13;
             this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.UseVisualStyleBackColor = false;
             // 
-            // btnTodo
+            // btnEliminar
             // 
-            this.btnTodo.Location = new System.Drawing.Point(32, 384);
-            this.btnTodo.Name = "btnTodo";
-            this.btnTodo.Size = new System.Drawing.Size(142, 73);
-            this.btnTodo.TabIndex = 14;
-            this.btnTodo.Text = "Agregar";
-            this.btnTodo.UseVisualStyleBackColor = true;
+            this.btnEliminar.BackColor = System.Drawing.Color.Yellow;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.Black;
+            this.btnEliminar.Location = new System.Drawing.Point(32, 384);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(142, 73);
+            this.btnEliminar.TabIndex = 14;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
             // 
             // textBox5
             // 
@@ -164,15 +171,15 @@
             this.lblApellido.TabIndex = 1;
             this.lblApellido.Text = "Apellido : ";
             // 
-            // frmAgregarGestPersonal
+            // frmEliminarPersonal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 630);
+            this.ClientSize = new System.Drawing.Size(434, 566);
             this.Controls.Add(this.grpDatos);
-            this.Name = "frmAgregarGestPersonal";
-            this.Text = "frmAgregarGestPersonal";
-            this.Load += new System.EventHandler(this.frmAgregarGestPersonal_Load);
+            this.Name = "frmEliminarPersonal";
+            this.Text = "Eliminar Personal ";
+            this.Load += new System.EventHandler(this.frmEliminarPersonal_Load);
             this.grpDatos.ResumeLayout(false);
             this.grpDatos.PerformLayout();
             this.ResumeLayout(false);
@@ -183,7 +190,7 @@
 
         private System.Windows.Forms.GroupBox grpDatos;
         private System.Windows.Forms.Button btnVolver;
-        private System.Windows.Forms.Button btnTodo;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox4;

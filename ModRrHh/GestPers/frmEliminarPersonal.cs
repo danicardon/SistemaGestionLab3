@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaGestionLab
+namespace SistemaGestionLab.ModRrHh.GestPers
 {
-    public partial class frmLegEmpleado : Form
+    public partial class frmEliminarPersonal : Form
     {
-        public frmLegEmpleado()
+        public frmEliminarPersonal()
         {
-            InitializeComponent();
-            diseño();
+            InitializeComponent(); diseño();
         }
         public void diseño()
         {
@@ -49,29 +48,7 @@ namespace SistemaGestionLab
 
             }
         }
-        private void frmLegEmpleado_Load(object sender, EventArgs e)
-        {
-            dgvLegEmpl.Font = new Font("Microsoft Sans Serif", 10.08f);
-        }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            //volver a menu principal
-        }
-
-        private void btnModificar_Click(object sender, EventArgs e)
-        {
-            frmModLegEmpl frmModLegEmpl = new frmModLegEmpl();  
-            frmModLegEmpl.ShowDialog(); 
-        }
-
-        private void btnAgregar_Click(object sender, EventArgs e)
-        {
-            frmAgregarLegEmpl frm =new frmAgregarLegEmpl();
-            frm.ShowDialog();
-        }
-
-        private void btnEliminar_Click(object sender, EventArgs e)
+        private void frmEliminarPersonal_Load(object sender, EventArgs e)
         {
 
         }

@@ -61,6 +61,7 @@
             this.grpDatos.Controls.Add(this.lblNleg);
             this.grpDatos.Controls.Add(this.lblApellido);
             this.grpDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.08F);
+            this.grpDatos.ForeColor = System.Drawing.Color.Yellow;
             this.grpDatos.Location = new System.Drawing.Point(32, 22);
             this.grpDatos.Name = "grpDatos";
             this.grpDatos.Size = new System.Drawing.Size(388, 444);
@@ -70,7 +71,9 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.Location = new System.Drawing.Point(184, 340);
+            this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.Black;
+            this.btnVolver.Location = new System.Drawing.Point(199, 340);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(142, 73);
             this.btnVolver.TabIndex = 11;
@@ -80,7 +83,9 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(32, 340);
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.ForeColor = System.Drawing.Color.Black;
+            this.btnAgregar.Location = new System.Drawing.Point(47, 340);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(142, 73);
             this.btnAgregar.TabIndex = 12;
@@ -182,7 +187,7 @@
             this.ClientSize = new System.Drawing.Size(470, 500);
             this.Controls.Add(this.grpDatos);
             this.Name = "frmAgregarLegEmpl";
-            this.Text = "frmAgregarLegEmpl";
+            this.Text = "Agregar Legajo Empleado";
             this.Load += new System.EventHandler(this.frmAgregarLegEmpl_Load);
             this.grpDatos.ResumeLayout(false);
             this.grpDatos.PerformLayout();
