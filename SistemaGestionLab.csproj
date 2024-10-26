@@ -99,6 +99,55 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\ConexionBD.cs" />
+    <Compile Include="ConexionDB.cs" />
+    <Compile Include="frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.Designer.cs">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModRrHh\GestPers\frmAgregarGestPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModRrHh\GestPers\frmAgregarGestPersonal.Designer.cs">
+      <DependentUpon>frmAgregarGestPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModRrHh\GestPers\frmEliminarPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModRrHh\GestPers\frmEliminarPersonal.Designer.cs">
+      <DependentUpon>frmEliminarPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModRrHh\GestPers\frmModGesPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModRrHh\GestPers\frmModGesPersonal.Designer.cs">
+      <DependentUpon>frmModGesPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModRrHh\LegEmpl\frmAgregarLegEmpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModRrHh\LegEmpl\frmAgregarLegEmpl.Designer.cs">
+      <DependentUpon>frmAgregarLegEmpl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModRrHh\LegEmpl\frmEliminarLegEmpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModRrHh\LegEmpl\frmEliminarLegEmpl.Designer.cs">
+      <DependentUpon>frmEliminarLegEmpl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModRrHh\GestPers\frmGestPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModRrHh\GestPers\frmGestPersonal.Designer.cs">
+      <DependentUpon>frmGestPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModRrHh\LegEmpl\frmLegEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModRrHh\LegEmpl\frmLegEmpleado.Designer.cs">
+      <DependentUpon>frmLegEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,60 +177,6 @@
     </Compile>
     <Compile Include="frmRegistrarse.Designer.cs">
       <DependentUpon>frmRegistrarse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmAgenda.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAgenda.Designer.cs">
-      <DependentUpon>frmAgenda.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmCompras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCompras.Designer.cs">
-      <DependentUpon>frmCompras.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmControlPagos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmControlPagos.Designer.cs">
-      <DependentUpon>frmControlPagos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmEstadisticas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmEstadisticas.Designer.cs">
-      <DependentUpon>frmEstadisticas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmGestionInventarioCompras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmGestionInventarioCompras.Designer.cs">
-      <DependentUpon>frmGestionInventarioCompras.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmHistorialVentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmHistorialVentas.Designer.cs">
-      <DependentUpon>frmHistorialVentas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmInicio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmInicio.Designer.cs">
-      <DependentUpon>frmInicio.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRegistroCompras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRegistroCompras.Designer.cs">
-      <DependentUpon>frmRegistroCompras.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRegVtas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRegVtas.Designer.cs">
-      <DependentUpon>frmRegVtas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -223,33 +218,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistrarse.resx">
       <DependentUpon>frmRegistrarse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAgenda.resx">
-      <DependentUpon>frmAgenda.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCompras.resx">
-      <DependentUpon>frmCompras.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmControlPagos.resx">
-      <DependentUpon>frmControlPagos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmEstadisticas.resx">
-      <DependentUpon>frmEstadisticas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmGestionInventarioCompras.resx">
-      <DependentUpon>frmGestionInventarioCompras.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmHistorialVentas.resx">
-      <DependentUpon>frmHistorialVentas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmInicio.resx">
-      <DependentUpon>frmInicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRegistroCompras.resx">
-      <DependentUpon>frmRegistroCompras.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRegVtas.resx">
-      <DependentUpon>frmRegVtas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
