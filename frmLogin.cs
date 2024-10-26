@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Need4Sprint.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -76,6 +77,27 @@ namespace SistemaGestionLab
             this.Hide();
             frmRecuperar.ShowDialog();
             Close();
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            string user = txtUsuario.Text.Trim();
+            string pass = txtContra.Text.Trim();
+
+            if (!string.IsNullOrEmpty(user) || !string.IsNullOrEmpty(pass))
+            {
+                ConexionBD bd = new ConexionBD();
+
+                if (bd.ValidarUsuario(user, pass))
+                {
+                    MessageBox.Show("Sesion Iniciada");
+                }
+                else
+                {
+                    MessageBox.Show("Corrobore los datos ingresados");
+                }
+            }
+
         }
     }
 }

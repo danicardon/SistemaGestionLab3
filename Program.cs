@@ -17,7 +17,7 @@ namespace SistemaGestionLab
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenuPrincipal());  //ejecutar frm 
+            Application.Run(new frmLogin());  //ejecutar frm 
         }
     }
 }
